@@ -18,7 +18,8 @@
 	  </contentFiles>
   </metadata>
 	<files>
-		<file src="bin\Release\*.*" target="lib\net48"></file>
+		<file src="bin\Debug\*.pdb" target="lib\net48"></file>
+		<file src="bin\Debug\*.nuspec" target="lib\net48"></file>
 		<file src="unicorn.png" target="\images"></file>
 	</files>
 </package>

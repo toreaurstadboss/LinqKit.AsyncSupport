@@ -1,1 +1,2 @@
-﻿nuget.exe pack LinqKit.AsyncSupport.nuspec -Symbols -NoDefaultExcludes
+﻿nuget.exe pack LinqKit.AsyncSupport.nuspec 
+nuget.exe pack LinqKit.AsyncSupport.Symbols.nuspec -Symbols  -SymbolPackageFormat snupkg

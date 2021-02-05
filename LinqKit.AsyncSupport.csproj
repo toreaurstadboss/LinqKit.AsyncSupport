@@ -71,6 +71,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="LinqKit.AsyncSupport.Symbols.nuspec" />
     <None Include="LinqKit.AsyncSupport.nuspec" />
     <None Include="nugetpack.ps1" />
     <None Include="packages.config" />
