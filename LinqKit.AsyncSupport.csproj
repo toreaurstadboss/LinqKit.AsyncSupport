@@ -16,6 +16,10 @@
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
   </PropertyGroup>
+  <PropertyGroup>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
@@ -68,6 +72,7 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="LinqKit.AsyncSupport.nuspec" />
+    <None Include="nugetpack.ps1" />
     <None Include="packages.config" />
     <None Include="Readme.md" />
   </ItemGroup>

@@ -1,0 +1,1 @@
+﻿nuget.exe pack LinqKit.AsyncSupport.nuspec -Symbols -NoDefaultExcludes

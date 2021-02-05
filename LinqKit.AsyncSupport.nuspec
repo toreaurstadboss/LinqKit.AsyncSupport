@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>ToreAurstadIt.LinqKit.AsyncSupport</id>
+    <version>1.0.0</version>
+    <title>ToreAurstadIt.LinqKit.AsyncSupport</title>
+    <authors>Tore Aurstad IT</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/toreaurstadboss/LinqKit.AsyncSupport</projectUrl>
+    <icon>images\unicorn.png</icon>
+    <description>A fork of Linqkit which enables suppport for async queries also when using expandable queries.</description>
+    <releaseNotes>Supported framework and EF version is .Net Framework 4.8 and EF 6.4.4.</releaseNotes>
+	  <copyright>MIT License</copyright>
+    <tags>Entity Framework, LinqKit EF,</tags>
+	  <contentFiles>
+		  <files include="*.*" buildAction="content" flatten="true" copyToOutput="true"/>
+	  </contentFiles>
+  </metadata>
+	<files>
+		<file src="bin\Release\*.*" target="lib\net48"></file>
+		<file src="unicorn.png" target="\images"></file>
+	</files>
+</package>
